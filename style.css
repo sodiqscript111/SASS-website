@@ -26,6 +26,8 @@ li {
   grid-template-columns: auto auto;
   padding: 60px;
   padding-top: 100px;
+  background: #000;
+  color: white;
 }
 
 .odd {

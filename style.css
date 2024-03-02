@@ -147,7 +147,9 @@ span {
 }
 
 .app {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.3;
   background: -webkit-linear-gradient(#eee, #424242);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -186,6 +188,7 @@ span {
 
 @media only screen and (max-width: 600px) {
   body {
+    overflow-x: hidden;
   }
   .first {
     display: flex;
@@ -213,19 +216,18 @@ span {
   .second {
     display: flex;
     flex-direction: column-reverse;
-    padding: 40px;
   }
   .image2 img {
-    width: 400px;
+    width: 95%;
   }
   .Third {
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    width: 80%;
     gap: 0px;
   }
   .Third video {
-    width: 400px;
+    width: 95%;
     height: 400px;
   }
   .button-10 {
